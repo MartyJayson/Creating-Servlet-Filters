@@ -12,16 +12,10 @@
 </head>
 <body>
 <a href="/index.jsp">Home</a>
-<form action="/login" method="get">
-    <label>
-        Name:
-    </label>
-    <input type="text" name="username"><br>
-    <label>
-        Password:
-    </label>
-    <input type="password" name="password">
-    <button>Log In</button>
+<form action="login" method="post">
+    Name:<input type="text" name="userName"/><br/>
+    Password:<input type="password" name="password"/><br/>
+    <input type="submit" value="Login"/>
 </form>
 </body>
 </html>

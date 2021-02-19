@@ -11,13 +11,13 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="LoginRegistration" />
+          <element id="module-output" name="LoginRegistrationWithCookies" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/LoginRegistration-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="LoginRegistration/web/Web" />
+      <element id="javaee-facet-resources" facet="LoginRegistrationWithCookies/web/Web" />
     </root>
   </artifact>
 </component>
